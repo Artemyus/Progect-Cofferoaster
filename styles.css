@@ -204,9 +204,8 @@ body {
   max-width: 1045px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  column-gap: 95px;
   margin-bottom: 64px;
 }
 .product__info-pick {
@@ -292,16 +291,10 @@ button:hover {
   letter-spacing: 0.923px;
   text-transform: uppercase;
 }
-/* .footer__nav :hover {
-  color: #fefcf7;
-  transition: 0.3s ease-in;
-} */
 .footer__social-links {
   display: flex;
   gap: 24px;
-}
-.footer__social-links :hover {
-  background-color: #fdd6ba;
+  align-items: center;
 }
 
 .header {
@@ -418,23 +411,17 @@ button:hover {
     line-height: 25px;
   }
 }
-@media (max-width: 880px) {
-  .product__instruction {
-    max-width: 689px;
-  }
+@media (max-width: 800px) {
   .product__instruction-bg {
     max-width: 72%;
     width: 497px;
     height: 21px;
   }
-  .product__info {
-    column-gap: 5px;
-  }
   .product__info-pick {
     height: 369px;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 740px) {
   .main__introduction {
     min-height: 500px;
     padding: 104px 0 104px 58px;
@@ -569,7 +556,7 @@ button:hover {
     line-height: 32px;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 735px) {
   .product__instruction .button-media {
     display: flex;
     justify-content: center;
