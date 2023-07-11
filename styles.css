@@ -292,10 +292,10 @@ button:hover {
   letter-spacing: 0.923px;
   text-transform: uppercase;
 }
-.footer__nav :hover {
+/* .footer__nav :hover {
   color: #fefcf7;
   transition: 0.3s ease-in;
-}
+} */
 .footer__social-links {
   display: flex;
   gap: 24px;
