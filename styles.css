@@ -646,7 +646,7 @@ button:hover {
     width: 100%;
     z-index: 1000;
     flex-direction: column;
-    padding: 40px 58px;
+    padding: 40px 40px;
     gap: 32px;
   }
   .header__nav-link {
