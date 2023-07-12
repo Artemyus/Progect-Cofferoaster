@@ -296,7 +296,9 @@ button:hover {
   gap: 24px;
   align-items: center;
 }
-
+.footer__social-links :hover{
+    color: #FEFCF7;;
+  }
 .header {
   display: flex;
   justify-content: space-between;
